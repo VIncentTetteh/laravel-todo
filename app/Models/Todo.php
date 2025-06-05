@@ -23,6 +23,10 @@ class Todo extends Model
         'title',
         'description',
         'completed',
+        'created_at',
+        'updated_at',
+        'deleted_at',
+
     ];
 
     protected $casts = [
